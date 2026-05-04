@@ -1,0 +1,20 @@
+name: max_voice_assistant
+description: Voice assistant app
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.3.0
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
